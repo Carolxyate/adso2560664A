@@ -1,6 +1,6 @@
-A = int(input("Ingrese coeficiente de la variable cuadratica"))
-B = int(input("Ingrese coeficiente de la variable lineal"))
-C = int(input("Ingrese termino independiente"))
+A = int(input("Ingrese coeficiente de la variable cuadratica: "))
+B = int(input("Ingrese coeficiente de la variable lineal: "))
+C = int(input("Ingrese termino independiente: "))
 x1 = 0
 x2 = 0
 
