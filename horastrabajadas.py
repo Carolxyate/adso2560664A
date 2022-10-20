@@ -1,4 +1,4 @@
-A = input("Ingrese las horas trabajadaS: ")
+A = input("Ingrese las horas trabajadas: ")
 B = float(A)
 C = B - 40
 D = (40 * 2600) + (C * 5000)

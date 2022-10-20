@@ -1,8 +1,9 @@
-tiempo = input("Ingrese el valor en segundos: ")
-s = float(tiempo)
-m = s / 60
-h = m / 60
-print("Convertidos en horas: ", h)
-print("Convertidos en minutos: ", m)
-print("Convertidos en segundos: ", s)
+Segundo = int(input("ingrese valor en segundos"))
+minuto= (Segundo/60)
+hora= (minuto/60)
+print ("Segundos:", Segundo)
+if (minuto):
+    print ("Minutos:",minuto)
+if (hora):
+    print("Horas:",hora)
 
