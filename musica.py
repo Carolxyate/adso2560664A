@@ -2,12 +2,7 @@ artista=input("ingrese el nombre del artista: ")
 genero=input("ingrese el genero: ")
 
 spotify_art = {}
-
-dictti={"canciones":{"nombre":"save of teers",
-                     "duracion":"4:15",
-            }
-
-            
+       
         
 while True:
     name = input("Ingrese el nombre de la cancion: ")
@@ -75,7 +70,7 @@ print('La cancion mas larga es',mayor)
         break 
     else:
         print('El numero no es valido') 
-    os.system('pause') 
+   
 
 
 
