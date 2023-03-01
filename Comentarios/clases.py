@@ -1,5 +1,5 @@
 #intento documento
-"""class Persona:# se crea la clase persona
+"""class Persona:
     def __init__(self,nombre,docu):#se define la funcion con el construrtor y un parametro
         self.__nombre=nombre#atributo partuckar oar saber  
         #print('Constructor Activado')        
@@ -43,7 +43,7 @@ print(app.getdocu())"""
 
 class Persona:# se crea la clase persona
     def __init__(self,nombre):#se define la funcion con el construrtor y un parametro
-        self.__nombre=nombre#se une con el atributo nombre
+        self.__nombre=nombre#se une con el atributo nombre 
         #print('Constructor Activado')        
 
     def getNombre(self): #se define la funcion con el metodo get para acceder al valor del atributo.
@@ -59,7 +59,7 @@ print(ob.getNombre())
 #print(type(ob))
 
 class Aprendiz(Persona):#se crea una subclase con la clase padre que es persona
-    def __init__(self,nombre,ficha):#se define la funcion con el construrtor y un parametro
+    def __init__(self,nombre,ficha):#se define la funcion con el construrtor y un parametro es inicializar los atributos del objeto que creamos.
         Persona.__init__(self,nombre)
         self.__ficha=ficha#se une con el atributo nombre
 
