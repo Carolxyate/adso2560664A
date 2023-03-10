@@ -98,7 +98,20 @@ print("el id del usuario asignado es  :",ped.getidUsuario())
 print("el titulo del material del pedido es :",ped.gettimaterial())
 print("el codigo asignado del codigo del material es :",ped.getcoMaterial())
 
-#me falta la subclase de bibliotecario:c
+class bibliotecario(pedido):
+    def __init__(self, idUsuario, timaterial, coMaterial, nombre):
+        super().__init__(idUsuario, timaterial, coMaterial)
+        self.__nombre = nombre
+
+    def getnombre(self):
+        return self.__nombre
+
+    def setnombre(self, nombre):
+        self.__nombre = nombre
+        
+po=bibliotecario(1777,"libro",2341, "camila")
+print("-el nombre del bibliotecario es: ",po.getnombre())
+
 
 
 print("---------------------------------------------------")    
